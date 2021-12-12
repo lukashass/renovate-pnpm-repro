@@ -1,0 +1,16 @@
+name: check
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: error if pnpm-lock.yaml hasn't changed
+        run: '! git diff --name-only pnpm-lock.yaml | grep pnpm-lock.yaml'
