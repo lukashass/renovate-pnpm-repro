@@ -1,6 +1,10 @@
 {
   $schema: "https://docs.renovatebot.com/renovate-schema.json",
   extends: ["config:js-app"],
+  prConcurrentLimit: 20,
+  branchConcurrentLimit: 20,
+  prHourlyLimit: 99,
+  prCommitsPerRunLimit: 99,
   packageRules: [
     {
       groupName: "testing packages",
