@@ -7,12 +7,13 @@ on:
 
 jobs:
   check:
+    name: error if pnpm-lock.yaml has changed
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2
         with:
-          fetch-depth: 0
+          fetch-depth: 2
 
-      - name: error if pnpm-lock.yaml hasn't changed
+      - name: error if pnpm-lock.yaml has changed
         run: git diff @~1 --name-only --exit-code pnpm-lock.yaml
