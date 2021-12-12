@@ -11,6 +11,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
 
       - name: error if pnpm-lock.yaml hasn't changed
         run: git diff @~1 --name-only --exit-code pnpm-lock.yaml
