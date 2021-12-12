@@ -13,4 +13,4 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: error if pnpm-lock.yaml hasn't changed
-        run: 'git diff --name-only pnpm-lock.yaml | grep pnpm-lock.yaml'
+        run: git diff @~1 --name-only --exit-code pnpm-lock.yaml
