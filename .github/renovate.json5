@@ -1,0 +1,11 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  extends: ["config:js-app"],
+  packageRules: [
+    {
+      groupName: "testing packages",
+      extends: ["packages:jsUnitTest"],
+      matchPackagePatterns: ["testing-library"],
+    },
+  ],
+}
