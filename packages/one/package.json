@@ -1,0 +1,9 @@
+{
+  "name": "@repro/one",
+  "version": "1.0.0",
+  "author": "BeeeQueue",
+  "dependencies": {
+    "react": "16.14.0",
+    "react-dom": "16.14.0"
+  }
+}
