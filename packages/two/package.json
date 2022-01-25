@@ -4,7 +4,7 @@
   "author": "BeeeQueue",
   "dependencies": {
     "@middy/core": "2.5.3",
-    "@middy/http-header-normalizer": "2.5.2",
+    "@middy/http-header-normalizer": "2.5.7",
     "@middy/http-json-body-parser": "2.5.2",
     "react": "16.14.0",
     "react-dom": "16.14.0"
