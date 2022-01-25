@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "BeeeQueue",
   "dependencies": {
-    "@middy/core": "2.5.3",
+    "@middy/core": "2.5.7",
     "@middy/http-header-normalizer": "2.5.2",
     "@middy/http-json-body-parser": "2.5.2",
     "react": "16.14.0",

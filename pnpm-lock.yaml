@@ -28,13 +28,13 @@ importers:
 
   packages/two:
     specifiers:
-      '@middy/core': 2.5.3
+      '@middy/core': 2.5.7
       '@middy/http-header-normalizer': 2.5.2
       '@middy/http-json-body-parser': 2.5.2
       react: 16.14.0
       react-dom: 16.14.0
     dependencies:
-      '@middy/core': 2.5.3
+      '@middy/core': 2.5.7
       '@middy/http-header-normalizer': 2.5.2
       '@middy/http-json-body-parser': 2.5.2
       react: 16.14.0
@@ -597,8 +597,8 @@ packages:
       chalk: 4.1.2
     dev: true
 
-  /@middy/core/2.5.3:
-    resolution: {integrity: sha512-hCXlRglDu48sl03IjDGjcJwfwElIPAf0fwBu08kqE80qpnouZ1hGH1lZbkbJjAhz6DkSR+79YArUQKUYaM2k1g==}
+  /@middy/core/2.5.7:
+    resolution: {integrity: sha512-KX5Ud0SP+pol6PGkYtMCH4goHobs1XJo3OvEUwdiZUIjZgo56Q08nLu5N7Bs6P+FwGTQHA+hlQ3I5SZbfpO/jg==}
     engines: {node: '>=12'}
     dev: false
 
