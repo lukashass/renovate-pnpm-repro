@@ -29,13 +29,13 @@ importers:
   packages/two:
     specifiers:
       '@middy/core': 2.5.3
-      '@middy/http-header-normalizer': 2.5.2
+      '@middy/http-header-normalizer': 2.5.7
       '@middy/http-json-body-parser': 2.5.2
       react: 16.14.0
       react-dom: 16.14.0
     dependencies:
       '@middy/core': 2.5.3
-      '@middy/http-header-normalizer': 2.5.2
+      '@middy/http-header-normalizer': 2.5.7
       '@middy/http-json-body-parser': 2.5.2
       react: 16.14.0
       react-dom: 16.14.0_react@16.14.0
@@ -602,8 +602,8 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
-  /@middy/http-header-normalizer/2.5.2:
-    resolution: {integrity: sha512-R3e81mcqM28A+ms4GrpyqP2ScPYX1DxEJ5/T5vL6K8Y+ZLuudkDt95ufHB9MrAjCcexOrqfayZN0v8EbUlHA1Q==}
+  /@middy/http-header-normalizer/2.5.7:
+    resolution: {integrity: sha512-FeBFfi/B+wYHbHPZuAqj5XVLObw6IM1+8LlPDPqA2mVwMSXs8Mx8B3zoIQm5Rq44LUxC2ziDHUq+sZqWJbWKgQ==}
     engines: {node: '>=12'}
     dev: false
 
